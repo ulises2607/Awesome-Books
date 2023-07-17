@@ -1,0 +1,11 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-list {
+    display: flex;
+    gap: 3rem;
+}

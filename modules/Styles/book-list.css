@@ -1,0 +1,23 @@
+.books {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-title {
+    font-size: rem;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.title-container {
+    display: flex;
+    gap: 0.4rem;
+}
