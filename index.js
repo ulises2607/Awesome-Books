@@ -1,13 +1,5 @@
+// import { dateTime } from './modules/JS/books/date.js';
 import { addBook, removeBook } from './modules/JS/books/managing-books.js';
-
-// import { DateTime } from 'luxon';
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   const currentDateElement = document.getElementById('current-date');
-//   const currentDateTime = DateTime.now();
-//   const formattedDate = currentDateTime.toFormat('dd/MM/yyyy');
-//   currentDateElement.textContent = `Today's date: ${formattedDate}`;
-// });
 
 const pageLinks = document.querySelectorAll('.link-page');
 const sections = document.querySelectorAll('section');
@@ -46,3 +38,4 @@ removeBook();
 pages();
 
 // Date
+// dateTime();
