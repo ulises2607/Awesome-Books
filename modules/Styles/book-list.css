@@ -6,9 +6,9 @@
 }
 
 .list-title {
-    font-size: rem;
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .list-item {
@@ -16,6 +16,10 @@
     justify-content: space-between;
     padding-bottom: 5px;
 }
+
+.list-item:nth-child(odd) {
+    background-color: #eee;
+  }
 
 .title-container {
     display: flex;
