@@ -1,4 +1,4 @@
-// import { dateTime } from './modules/JS/books/date.js';
+import currentTime from './modules/JS/books/date.js';
 import { addBook, removeBook } from './modules/JS/books/managing-books.js';
 
 const pageLinks = document.querySelectorAll('.link-page');
@@ -29,6 +29,13 @@ const pages = () => {
   });
 };
 
+const dateTime = () => {
+  const formatedTime = currentTime.toFormat("MMMM d yyyy',' hh:mm:ss a");
+
+  const elementTime = document.getElementById('current-date');
+  elementTime.innerText = formatedTime;
+};
+
 // Managing books
 addBook();
 removeBook();
@@ -38,4 +45,4 @@ removeBook();
 pages();
 
 // Date
-// dateTime();
+dateTime();
